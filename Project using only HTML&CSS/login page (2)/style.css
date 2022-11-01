@@ -1,0 +1,106 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(pexels-marcin-jozwiak-13664517.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: rgba(240, 248, 255, 0.27);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    backdrop-filter: blur(47px);
+    border-radius: 12px;
+
+
+}
+.form h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.252);
+}
+.input{
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    
+
+}
+.input img{
+    
+    height: 22px;
+    width: 22px;
+    margin: 0;
+    margin-left: -50px;
+    margin-top: -30px;
+    
+
+}
+
+.form input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow:  1px 1px 10px rgba(40, 40, 40, 0.323);
+    margin-bottom: 30px;
+    margin-right: 22px;
+    
+    
+    
+
+}
+
+.form a{
+    margin-top: -14px;
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.338);
+
+}
+.forget{
+    font-size: 14px;
+    color: rgb(0, 153, 255);
+    
+
+}
+.signup{
+    color: aliceblue;
+}
+.form button{
+    width: 200px;
+    padding: 8px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.338);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.14);
+    background: linear-gradient(90deg, rgb(0, 166, 249),rgb(0, 64, 147))no-repeat;
+    margin-bottom: 55px;
+
+}

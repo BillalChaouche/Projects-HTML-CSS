@@ -1,0 +1,75 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.867);
+    flex-shrink: 0;
+    z-index: 100;
+    
+    
+}
+header h2{
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin-left: 70px;
+    margin-top: 35px;
+    height: 100%;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-shrink: 0;
+    margin-left: 200px;
+    align-items: center;
+    height: 100%;
+    
+    
+
+}
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 70px;
+    color: black;
+    transition: 0.4s;
+    flex-shrink: 0;
+
+
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+    color: rgb(87, 215, 172);
+    
+}
+header button{
+    background-color: black;
+    border: none;
+    width: 120px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-right: 70px;
+    border-radius: 7px;
+    font-size: 16px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.256);
+    transition: 0.4s;
+    flex-shrink: 0;
+
+}
+header button:hover{
+    background-color: rgb(87, 215, 172);
+     box-shadow: 3px 6px 18px rgba(87, 215, 172, 0.497);
+     transform: scale(1.1);
+}
